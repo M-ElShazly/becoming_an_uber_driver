@@ -345,7 +345,7 @@ The data analysed in this project are public data from [Uber](https://www.kaggle
 
 ![PCA](https://user-images.githubusercontent.com/103464869/198494344-f195b80d-3d7b-4cad-8677-4376de6dd700.jpg)
 
-The results of of PCA analysis shows displays the negligible effect of weather and weather forecast on Uber's dynamic pricing.
+>The results of of PCA analysis shows displays the negligible effect of weather and weather forecast on Uber's dynamic pricing.
 
 ### 2. Interactive Dashboard for Picking the Best Route
 
@@ -382,9 +382,17 @@ The next VBA form was created to collect data from active drives in certain regi
 
 ![Prediction](https://user-images.githubusercontent.com/103464869/198498811-8bfb4305-7dc4-4dbe-a5ef-417593bf8315.jpg)
 
-This system was intended to allow new uber driver to enter their target income and move through a serios of forms to enter all their preferences. The application will later use the collected preferences to suggest the different options of operations to achieve the targeted income with the most convenience to the driver. 
+>This system was intended to allow new uber driver to enter their target income and move through a serios of forms to enter all their preferences. The application will later use the collected preferences to suggest the different options of operations to achieve the targeted income with the most convenience to the driver. 
 
 ### Recommendations by VBA Results
 
 ![Excel_VBA2](https://user-images.githubusercontent.com/103464869/198499063-db592fa7-0b9c-453e-9087-f87137fbb901.PNG)
+
+### BONUS 
+For new cap drivers, and to ease their penetration to the market, and helping them build better uber profile with better reviews. 
+
+The used cars dataset from NYC DOT were displayed in an **interactive dashboard** to help new entrants pick the most convenient cars when it comes to _fuel consumption_, _leg space_, _price_, and _make_ 
+
+![BONUS](https://user-images.githubusercontent.com/103464869/198500171-5961af10-8cc8-4dde-b244-73eefad90a80.jpg)
+
 
