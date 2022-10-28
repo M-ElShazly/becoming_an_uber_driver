@@ -388,7 +388,7 @@ The next VBA form was created to collect data from active drives in certain regi
 
 ![Excel_VBA2](https://user-images.githubusercontent.com/103464869/198499063-db592fa7-0b9c-453e-9087-f87137fbb901.PNG)
 
-### BONUS 
+## BONUS 
 For new cap drivers, and to ease their penetration to the market, and helping them build better uber profile with better reviews. 
 
 The used cars dataset from NYC DOT were displayed in an **interactive dashboard** to help new entrants pick the most convenient cars when it comes to _fuel consumption_, _leg space_, _price_, and _make_ 
