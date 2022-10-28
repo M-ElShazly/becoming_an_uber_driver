@@ -23,35 +23,6 @@ The data analysed in this project are public data from [Uber](https://www.kaggle
 
 1. **Fare Prices**
 
-![Fare_Prices](https://user-images.githubusercontent.com/103464869/198450692-e0ab85ad-a667-477c-ae83-fc1194840886.jpg)
-
-2. **Customer Reviews**
-
-![Reviews](https://user-images.githubusercontent.com/103464869/198450728-18ca550e-77bb-4405-89fc-45b4a7b13e9c.jpg)
-
-3. **NYC Traffic Data**
-
-![Traffic_Data](https://user-images.githubusercontent.com/103464869/198450758-37926f28-f994-4650-9703-972cb6dcc450.jpg)
-
-
-## 3. Analysis 
-
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -137,6 +108,242 @@ The data analysed in this project are public data from [Uber](https://www.kaggle
   </tbody>
 </table>
 </div>
+
+2. **Customer Reviews**
+
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Date</th>
+      <th>Stars</th>
+      <th>Comment</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>10/29/2019</td>
+      <td>1</td>
+      <td>I had an accident with an Uber driver in Mexic...</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>10/28/2019</td>
+      <td>1</td>
+      <td>I have had my account completely hacked to whe...</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>10/27/2019</td>
+      <td>1</td>
+      <td>I requested an 8 mile ride in Boston on a Satu...</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>10/27/2019</td>
+      <td>1</td>
+      <td>I've been driving off and on with the company ...</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>10/25/2019</td>
+      <td>1</td>
+      <td>Uber is overcharging for Toll fees. When In Fl...</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>10/24/2019</td>
+      <td>1</td>
+      <td>I had an airport flight today. Uber would not ...</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>10/24/2019</td>
+      <td>1</td>
+      <td>I worked for Uber and Lyft for 2.5 years and a...</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>10/23/2019</td>
+      <td>1</td>
+      <td>In July of this year I had sushi delivered to ...</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>10/23/2019</td>
+      <td>1</td>
+      <td>My driver, Rohan was nice, but when I tried to...</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>10/21/2019</td>
+      <td>1</td>
+      <td>I had seven fraudulent Uber transactions over ...</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+3. **NYC Traffic Data**
+
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>ID</th>
+      <th>Segment ID</th>
+      <th>Roadway Name</th>
+      <th>From</th>
+      <th>To</th>
+      <th>Direction</th>
+      <th>Date</th>
+      <th>12:00-1:00 AM</th>
+      <th>1:00-2:00AM</th>
+      <th>2:00-3:00AM</th>
+      <th>...</th>
+      <th>2:00-3:00PM</th>
+      <th>3:00-4:00PM</th>
+      <th>4:00-5:00PM</th>
+      <th>5:00-6:00PM</th>
+      <th>6:00-7:00PM</th>
+      <th>7:00-8:00PM</th>
+      <th>8:00-9:00PM</th>
+      <th>9:00-10:00PM</th>
+      <th>10:00-11:00PM</th>
+      <th>11:00-12:00AM</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>2</td>
+      <td>70376</td>
+      <td>3 Avenue</td>
+      <td>East 154 Street</td>
+      <td>East 155 Street</td>
+      <td>NB</td>
+      <td>9/13/2014</td>
+      <td>204</td>
+      <td>177</td>
+      <td>133</td>
+      <td>...</td>
+      <td>520</td>
+      <td>611</td>
+      <td>573</td>
+      <td>546</td>
+      <td>582</td>
+      <td>528</td>
+      <td>432</td>
+      <td>328</td>
+      <td>282</td>
+      <td>240</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2</td>
+      <td>70376</td>
+      <td>3 Avenue</td>
+      <td>East 155 Street</td>
+      <td>East 154 Street</td>
+      <td>SB</td>
+      <td>9/13/2014</td>
+      <td>140</td>
+      <td>51</td>
+      <td>128</td>
+      <td>...</td>
+      <td>379</td>
+      <td>376</td>
+      <td>329</td>
+      <td>362</td>
+      <td>418</td>
+      <td>335</td>
+      <td>282</td>
+      <td>247</td>
+      <td>237</td>
+      <td>191</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>56</td>
+      <td>176365</td>
+      <td>Bedford Park Boulevard</td>
+      <td>Grand Concourse</td>
+      <td>Valentine Avenue</td>
+      <td>EB</td>
+      <td>9/13/2014</td>
+      <td>94</td>
+      <td>73</td>
+      <td>65</td>
+      <td>...</td>
+      <td>280</td>
+      <td>272</td>
+      <td>264</td>
+      <td>236</td>
+      <td>213</td>
+      <td>190</td>
+      <td>199</td>
+      <td>183</td>
+      <td>147</td>
+      <td>103</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>56</td>
+      <td>176365</td>
+      <td>Bedford Park Boulevard</td>
+      <td>Grand Concourse</td>
+      <td>Valentine Avenue</td>
+      <td>WB</td>
+      <td>9/13/2014</td>
+      <td>88</td>
+      <td>82</td>
+      <td>75</td>
+      <td>...</td>
+      <td>237</td>
+      <td>276</td>
+      <td>223</td>
+      <td>240</td>
+      <td>217</td>
+      <td>198</td>
+      <td>186</td>
+      <td>162</td>
+      <td>157</td>
+      <td>103</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>62</td>
+      <td>147673</td>
+      <td>Broadway</td>
+      <td>West 242 Street</td>
+      <td>240 Street</td>
+      <td>SB</td>
+      <td>9/13/2014</td>
+      <td>255</td>
+      <td>209</td>
+      <td>149</td>
+      <td>...</td>
+      <td>732</td>
+      <td>809</td>
+      <td>707</td>
+      <td>675</td>
+      <td>641</td>
+      <td>556</td>
+      <td>546</td>
+      <td>465</td>
+      <td>425</td>
+      <td>324</td>
+    </tr>
+  </tbody>
+</table>
+<p>5 rows × 31 columns</p>
+</div>
+
+
+## 3. Analysis 
+
+
 
 
 
