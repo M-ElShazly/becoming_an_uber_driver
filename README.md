@@ -337,11 +337,13 @@ The data analysed in this project are public data from [Uber](https://www.kaggle
     </tr>
   </tbody>
 </table>
-<p>5 rows × 31 columns</p>
-</div>
-
 
 ## 3. Analysis 
+
+### 1. Principle Component Analysis with R 
+
+
+![PCA](https://user-images.githubusercontent.com/103464869/198494344-f195b80d-3d7b-4cad-8677-4376de6dd700.jpg)
 
 
 
