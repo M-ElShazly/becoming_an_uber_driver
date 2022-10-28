@@ -34,6 +34,112 @@ The data analysed in this project are public data from [Uber](https://www.kaggle
 ![Traffic_Data](https://user-images.githubusercontent.com/103464869/198450758-37926f28-f994-4650-9703-972cb6dcc450.jpg)
 
 
+## 3. Analysis 
+
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>distance</th>
+      <th>cab_type</th>
+      <th>time_stamp</th>
+      <th>destination</th>
+      <th>source</th>
+      <th>price</th>
+      <th>surge_multiplier</th>
+      <th>id</th>
+      <th>product_id</th>
+      <th>name</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>0.44</td>
+      <td>Lyft</td>
+      <td>1.544950e+12</td>
+      <td>North Station</td>
+      <td>Haymarket Square</td>
+      <td>5.0</td>
+      <td>1.0</td>
+      <td>424553bb-7174-41ea-aeb4-fe06d4f4b9d7</td>
+      <td>lyft_line</td>
+      <td>Shared</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>0.44</td>
+      <td>Lyft</td>
+      <td>1.543280e+12</td>
+      <td>North Station</td>
+      <td>Haymarket Square</td>
+      <td>11.0</td>
+      <td>1.0</td>
+      <td>4bd23055-6827-41c6-b23b-3c491f24e74d</td>
+      <td>lyft_premier</td>
+      <td>Lux</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>0.44</td>
+      <td>Lyft</td>
+      <td>1.543370e+12</td>
+      <td>North Station</td>
+      <td>Haymarket Square</td>
+      <td>7.0</td>
+      <td>1.0</td>
+      <td>981a3613-77af-4620-a42a-0c0866077d1e</td>
+      <td>lyft</td>
+      <td>Lyft</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>0.44</td>
+      <td>Lyft</td>
+      <td>1.543550e+12</td>
+      <td>North Station</td>
+      <td>Haymarket Square</td>
+      <td>26.0</td>
+      <td>1.0</td>
+      <td>c2d88af2-d278-4bfd-a8d0-29ca77cc5512</td>
+      <td>lyft_luxsuv</td>
+      <td>Lux Black XL</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>0.44</td>
+      <td>Lyft</td>
+      <td>1.543460e+12</td>
+      <td>North Station</td>
+      <td>Haymarket Square</td>
+      <td>9.0</td>
+      <td>1.0</td>
+      <td>e0126e1f-8ca9-4f2e-82b3-50505a09db9a</td>
+      <td>lyft_plus</td>
+      <td>Lyft XL</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
 
 
 
