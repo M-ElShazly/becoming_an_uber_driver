@@ -20,12 +20,15 @@ The data analysed in this project are public data from [Uber](https://www.kaggle
 
 ### **Sample Data** 
 
+
 1. **Fare Prices**
 
 ![Fare_Prices](https://user-images.githubusercontent.com/103464869/198450692-e0ab85ad-a667-477c-ae83-fc1194840886.jpg)
+
 2. **Customer Reviews**
 
 ![Reviews](https://user-images.githubusercontent.com/103464869/198450728-18ca550e-77bb-4405-89fc-45b4a7b13e9c.jpg)
+
 3. **NYC Traffic Data**
 
 ![Traffic_Data](https://user-images.githubusercontent.com/103464869/198450758-37926f28-f994-4650-9703-972cb6dcc450.jpg)
