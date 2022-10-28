@@ -340,15 +340,51 @@ The data analysed in this project are public data from [Uber](https://www.kaggle
 
 ## 3. Analysis 
 
-### 1. Principle Component Analysis with R 
+### 1. Principle Component Analysis (PCA) of Weather Data 
 
 
 ![PCA](https://user-images.githubusercontent.com/103464869/198494344-f195b80d-3d7b-4cad-8677-4376de6dd700.jpg)
 
+The results of of PCA analysis shows displays the negligible effect of weather and weather forecast on Uber's dynamic pricing.
 
+### 2. Interactive Dashboard for Picking the Best Route
 
+Through the dashboard, drives could pick the best routes to their destination based on the _Time_, _Hour_, and _Day of the Week_
 
+![Route](https://user-images.githubusercontent.com/103464869/198495615-be1ed109-093c-4751-bf05-65b67313aa45.jpg)
 
+### 3. Time Series Prediction of Future Fares Based on Past Data
 
+![Time Series Analysis   Prediction](https://user-images.githubusercontent.com/103464869/198495742-96bc6d4c-bbba-4df2-9f2c-e73a2c32536e.jpg)
 
+> Results of the time-series analysis presented an **Accuracy of 72%**. In order to achieve better accuracy, we decided to train a Random Forest model predict fare prices based on Cab Type, Distance,..etc. 
+
+### 4. Random Forest Prediction of Fares & Surge Factor
+
+![Random Forest](https://user-images.githubusercontent.com/103464869/198496870-3cb1f3b8-38ea-44e8-adae-87539f7a23d1.PNG)
+_**The model was deployed using Dataiku, the used code is exported accordingly_
+
+### 5. Global Sentiment Analysis of Customers Reviews
+
+![Sentiment Analysis](https://user-images.githubusercontent.com/103464869/198497400-b587e74e-115f-4da5-97b0-b2277d975f11.jpg)
+
+> Information on Polarity and Subjectivity were later used to introduce best practices and recommendations for drivers. These insights and recommendations are available on the Slide Deck of the project. 
+
+### 5. Data Collection using VBA form
+
+The main objective of the project was to provide useful recommendations and prediction for Uber drivers to dynamically support their decision making and allow them to achieve higher earning. 
+
+The next VBA form was created to collect data from active drives in certain regions. This data is later used to train our Random Forest model to predict surge factor for different times of the day with better accurancy, and then shared back with uber drivers operaing in the same area. 
+
+![Excel_VBA](https://user-images.githubusercontent.com/103464869/198498185-fc34d8e6-9ea9-4aee-836a-0ec6ce31a289.PNG)
+
+### 6. Recommendations with VBA Based on Collected Data
+
+![Prediction](https://user-images.githubusercontent.com/103464869/198498811-8bfb4305-7dc4-4dbe-a5ef-417593bf8315.jpg)
+
+This system was intended to allow new uber driver to enter their target income and move through a serios of forms to enter all their preferences. The application will later use the collected preferences to suggest the different options of operations to achieve the targeted income with the most convenience to the driver. 
+
+### Recommendations by VBA Results
+
+![Excel_VBA2](https://user-images.githubusercontent.com/103464869/198499063-db592fa7-0b9c-453e-9087-f87137fbb901.PNG)
 
