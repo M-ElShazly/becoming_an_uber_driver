@@ -1,5 +1,6 @@
-# Uber Case Study
 ![uber-everywhere](https://user-images.githubusercontent.com/103464869/198420955-1a830889-7ecd-48d2-8d88-0bf6b65340e6.png)
+
+# Uber Case Study
 
 This repo contains a full analysis of the trips, routes, and pricing data of Uber. Uber is a transportation company with an app that allows passengers to hail a ride and drivers to charge fares and get paid. More specifically, Uber is a ridesharing company that hires independent contractors as drivers.
 
