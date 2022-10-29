@@ -397,5 +397,5 @@ The next VBA form was created to collect data from active drives in certain regi
 
 # 4. Usability 
 
-  - Clone the repo using this command in your terminal `git clone https://github.com/MuELSHAZLY/uber_case_study.git` 
+  - Clone the repo using this command in your terminal `git clone https://github.com/M-ElShazly/uber_case_study.git` 
   
